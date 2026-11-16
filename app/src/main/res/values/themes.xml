@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The UI is Compose; this only styles the window before the first frame
+         and the fingerprint dialog on Android 8 and 8.1. -->
+    <style name="Theme.Tijori" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

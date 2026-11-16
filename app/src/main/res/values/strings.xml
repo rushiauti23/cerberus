@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tijori</string>
+    <string name="reminder_channel_name">Password rotation reminders</string>
+    <string name="reminder_title">Passwords due for rotation</string>
+</resources>
