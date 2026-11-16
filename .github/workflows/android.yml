@@ -26,7 +26,11 @@ jobs:
           java-version: 17
 
       - uses: gradle/actions/setup-gradle@v4
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
+      - name: Test the vault core
+        run: ./gradlew :core:test
       - name: Test the vault core
         run: ./gradlew :core:test
 
